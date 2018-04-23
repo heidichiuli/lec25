@@ -49,3 +49,5 @@ def delete_entry(id):
         f.close()
     except:
         print('ERROR! Could not write entries to file.')
+
+delete_entry(id)

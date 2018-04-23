@@ -32,3 +32,4 @@ def delete():
 if __name__=="__main__":
     model.init()
     app.run(debug=True)
+    
